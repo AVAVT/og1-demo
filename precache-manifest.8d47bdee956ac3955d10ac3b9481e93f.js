@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "07be0e46df0be9630c00",
-    "url": "/og1-demo/static/css/main.32311a80.chunk.css"
+    "revision": "85c3cfc2a1310fe1089a",
+    "url": "/og1-demo/static/css/main.18f2d777.chunk.css"
   },
   {
-    "revision": "07be0e46df0be9630c00",
-    "url": "/og1-demo/static/js/main.fb1c132b.chunk.js"
+    "revision": "85c3cfc2a1310fe1089a",
+    "url": "/og1-demo/static/js/main.47fdebbb.chunk.js"
   },
   {
     "revision": "7f514773d7277ba01141",
@@ -704,7 +704,7 @@ self.__precacheManifest = [
     "url": "/og1-demo/static/media/cover-136.b7f130ae.png"
   },
   {
-    "revision": "c1f0c61246ad3028e0d736a6edbc3c15",
+    "revision": "d4b41ca605057650d27f408c514130f5",
     "url": "/og1-demo/index.html"
   }
 ];
