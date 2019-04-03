@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Hiragino Kaku Gothic Pro';
+    font-family: 'Hiragino';
     src: url('./fonts/HiraKakuPro-W6-AlphaNum.woff2') format('woff2'),
         url('./fonts/HiraKakuPro-W6-AlphaNum.woff') format('woff'),
         url('./fonts/HiraKakuPro-W6-AlphaNum.ttf') format('truetype');
@@ -8,10 +8,18 @@
 }
 
 @font-face {
-    font-family: 'Hiragino Kaku Gothic Pro';
+    font-family: 'Hiragino';
     src: url('./fonts/HiraKakuPro-W3-AlphaNum.woff2') format('woff2'),
         url('./fonts/HiraKakuPro-W3-AlphaNum.woff') format('woff'),
-        url('./fonts/HiraKakuPro-W3-AlphaNum.ttf') format('truetype');;
+        url('./fonts/HiraKakuPro-W3-AlphaNum.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Meiryo';
+    src: url('./fonts/Meiryo.woff2') format('woff2'),
+        url('./fonts/Meiryo.woff') format('woff'),
+        url('./fonts/Meiryo.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,6 +31,45 @@
     url('./fonts/icomoon.ttf?xdeyjc') format('truetype'),
     url('./fonts/icomoon.woff?xdeyjc') format('woff'),
     url('./fonts/icomoon.svg?xdeyjc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* For Mac */
+@font-face {
+    font-family: Hiragino;
+    src: url(./fonts/HiraKakuPro-W6-AlphaNum.woff2) format(woff2),
+        url(./fonts/HiraKakuPro-W6-AlphaNum.woff) format(woff),
+        url(./fonts/HiraKakuPro-W6-AlphaNum.ttf) format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Hiragino;
+    src: url(./fonts/HiraKakuPro-W3-AlphaNum.woff2) format(woff2),
+        url(./fonts/HiraKakuPro-W3-AlphaNum.woff) format(woff),
+        url(./fonts/HiraKakuPro-W3-AlphaNum.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Meiryo;
+    src: url(./fonts/Meiryo.woff2) format(woff2),
+        url(./fonts/Meiryo.woff) format(woff),
+        url(./fonts/Meiryo.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: icomoon;
+  src:  url(./fonts/icomoon.eot?xdeyjc);
+  src:  url(./fonts/icomoon.eot?xdeyjc#iefix) format(embedded-opentype),
+    url(./fonts/icomoon.ttf?xdeyjc) format(truetype),
+    url(./fonts/icomoon.woff?xdeyjc) format(woff),
+    url(./fonts/icomoon.svg?xdeyjc#icomoon) format(svg);
   font-weight: normal;
   font-style: normal;
 }
