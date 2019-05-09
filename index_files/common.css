@@ -24,14 +24,17 @@ html {
   line-height: 1.4;
 }
 
-body {
-  background: #fff;
+header, footer {
   font-size: 14px;
   line-height: 1.8;
   color: #333;
   -webkit-text-size-adjust: 100%;
   font-family: 'Yu Gothic','ヒラギノ角ゴシック', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   font-weight: 500;
+}
+
+header p, footer p{
+  margin: 0;
 }
 
 .inner,
@@ -691,86 +694,7 @@ footer .page_item {
 /*========================================
 #見出し
 =========================================*/
-h1 {
-  border-bottom: 5px solid #eb1900;
-  clear: both;
-  font-size: 24px;
-  /*font-size: 2.4rem;*/
-  font-weight: bold;
-  line-height: 150%;
-  margin: 60px 0 20px;
-  padding: 0 0 10px;
- }
 
-h2 {
-  clear: both;
-  display: inline-block;
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 60px;
-  padding: 10px 0;
-  position: relative;
-  text-align: center;
-  width: 100%;
-}
-
-h2:after {
-  background: #eb1900;
-  content: "";
-  display: block;
-  height:2px;
-  margin: 0 auto;
-  width: 60px;
-}
-
-h3 {
-  clear: both;
-  color: #eb1900;
-  display: block;
-  font-size: 26px;
-  font-weight: bold;
-  margin: 20px auto;
-}
-
-h4 {
-  clear: both;
-  display: inline-block;
-  font-size: 19px;
-  font-weight: bold;
-  margin: 20px 0;
-  position: relative;
-}
-
-h4:before {
-  content: url("../img/prod.jpg");
-  left: -60px;
-  position: absolute;
-  top: -10px;
-}
-
-/*.product h4:before {
-  top: 50px;
-}*/
-
-h5 {
-  color: #eb1900;
-  clear: both;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-
-
-@media print,screen and (max-width:768px) {
-h2 {
-  font-size: 18px;
-  padding: 20px 0;
-}
-
-h3 {
-  font-size: 2.0rem;
-}
-}
 
 
 /*----------------------------------
@@ -2295,12 +2219,6 @@ select {
   cursor: pointer;
 }
 
-select,
-input {
-  border: 2px solid #e2e2e2;
-  padding: 10px 15px;
-}
-
 .back {
   margin-bottom: 60px;
 }
@@ -2313,30 +2231,10 @@ input {
 /*----------------------------------
 table
 ----------------------------------*/
-table {
-  border-collapse:collapse;
-  table-layout: fixed;
-  width: 100%;
-}
 
-tr {
-  border-bottom: none;
-}
-
-th {
-  font-size: 14px;
-  padding: 30px 10px 30px 20px;
-  text-align: left;
-  vertical-align: top;
-  width: 15%;
-}
 
 #mw_wp_form_mw-wp-form-71 th {
   vertical-align: middle;
-}
-
-td {
-  padding: 30px;
 }
 
 .contacts {
@@ -2489,38 +2387,6 @@ textarea {
 
 #mw_wp_form_mw-wp-form-73 > p {
     display: none;
-}
-
-
-@media print,screen and (max-width:768px) {
-th,
-td {
-  display: block;
-  width: 100%;
-}
-
-th {
-  clear: both;
-  margin-top: 20px;
-  width: 100%;
-}
-
-td {
-  padding: 10px 0;
-  font-size: 14px;
-}
-
-.history th {
-  margin-top: 0;
-}
-
-.contacts th {
-  width: 100%;
-}
-
-.contacts td {
-  width: 100%;
-}
 }
 
 
